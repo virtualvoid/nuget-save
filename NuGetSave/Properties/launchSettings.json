@@ -1,0 +1,13 @@
+{
+  "profiles": {
+    "NuGetSave": {
+      "commandName": "Project",
+      // list by project
+      //"commandLineArgs": "list -p d:\\Work\\Dokumenta\\ADMIS\\src\\Tools\\BouncyBudgie\\BouncyBudgie.Console\\BouncyBudgie.Console.csproj -c d:\\Work\\Dokumenta\\ADMIS\\src\\Backend\\nuget.config"
+      // list by solution
+      //"commandLineArgs": "list -s d:\\Work\\Dokumenta\\ADMIS\\src\\Backend\\ADMIS.sln -c d:\\Work\\Dokumenta\\ADMIS\\src\\Backend\\nuget.config"
+      // donwload by solution
+      "commandLineArgs": "download -s d:\\Work\\Dokumenta\\ADMIS\\src\\Backend\\ADMIS.sln -c d:\\Work\\Dokumenta\\ADMIS\\src\\Backend\\nuget.config -d d:\\temp\\nuget-save-test-01"
+    }
+  }
+}
