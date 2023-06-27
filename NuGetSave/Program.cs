@@ -3,11 +3,12 @@ using CommandLine;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.FileProviders;
 using Microsoft.Extensions.Logging;
-using NuGetSave.Process;
 using System.Diagnostics;
 using System.Reflection;
 
 namespace NuGetSave;
+
+using NuGetSave.Process;
 
 internal class Program
 {
