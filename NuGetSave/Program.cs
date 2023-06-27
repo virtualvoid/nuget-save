@@ -4,7 +4,6 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.FileProviders;
 using Microsoft.Extensions.Logging;
 using System.Diagnostics;
-using System.Reflection;
 
 namespace NuGetSave;
 

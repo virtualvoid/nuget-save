@@ -1,8 +1,9 @@
-﻿namespace NuGetSave.Common;
+﻿using System.Xml.Linq;
+
+namespace NuGetSave.Common;
 
 using NuGetSave.Data;
 using NuGetSave.Process;
-using System.Xml.Linq;
 using static NuGetSave.Process.Enums;
 
 internal static class OptionsBaseExtensions

@@ -1,17 +1,12 @@
 ﻿using Microsoft.Extensions.Logging;
 using NuGet.Configuration;
+using NuGet.Packaging;
 using NuGet.Protocol;
 using NuGet.Protocol.Core.Types;
 using NuGet.Versioning;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace NuGetSave.Process.DownloadPackages;
 
-using NuGet.Packaging;
 using NuGetSave.Protocol;
 
 internal class DownloadPackagesProcess : ProcessBase
